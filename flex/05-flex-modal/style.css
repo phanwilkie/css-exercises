@@ -20,6 +20,32 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* NEW */
+  padding: 15px;
+  display: flex;
+}
+
+/* NEW */
+.left-column {
+  display: flex;
+  padding-right: 20px;
+  /* align-items:flex-start; */
+}
+
+/* NEW */
+.headline {
+  display: flex;
+}
+
+/* NEW */
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* NEW */
+.text {
+  margin-top: 8px;
 }
 
 .icon {
@@ -48,12 +74,16 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /* NEW */
+  margin-left: auto;
+  margin-top: 0;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 15px;
 }
 
 button.continue {
